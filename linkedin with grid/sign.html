@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-in</title>
+    <link rel="stylesheet" href="sign.css">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="title">
+        <h2>Linked <span>in</span></h2>
+    </div>
+    <div class="container">
+        <div class="center">
+            <div class="card">
+                <div class="mail">
+                <h3>Sign in</h3>
+                <p>Stay updated on your professional world</p>
+                </div>
+                <input type="text" placeholder="Email or Phone">
+                <input 
+               type="password"
+               id="password"
+               placeholder="password(6+ characters)"
+               minlength="6"
+               maxlength="16" 
+               required
+              >
+         <button id="showBtn">Show</button>
+         <a id="hash" href="">Forgot Password?</a>
+         <button class="btn">Sign in</button>
+         <div class="hr">
+            <hr><span>or</span>
+            <hr>
+        </div>
+         <p class="sentence">By clicking Continue, you agree to LinkedIn’s <a href="">User Agreement,</a> <a
+            href="">Privacy Policy,</a> and <a href="">Cookie Policy. </a></p>
+           
+            <button class="Conti"><img src="/icons/google.svg" alt="">Continue with Google</button>
+            <button class="Conti"><i class="fa-brands fa-apple"></i>Sign in with Apple</button>
+            <button class="Conti"><i class="fa-solid fa-link"></i>Sign in with a one-time link</button>
+            <button class="Conti">Sign in with a passkey</button>
+        </div>
+        <div class="Al">
+            <p>New to LinkedIn? <a href="https://www.linkedin.com/signup/cold-join?source=guest_homepage-basic_nav-header-signin">Join now</a></p>
+        </div>
+        </div>
+        
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>

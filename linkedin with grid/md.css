@@ -1,0 +1,251 @@
+@media screen and (max-width: 768px){
+    .container{
+        overflow-x: hidden;
+    }
+    .nav{
+        display: grid;
+        grid-template-columns: 1fr;
+        max-width: 768px;
+        width: auto;
+        padding: .85rem;
+    }
+    .icons{
+        display: none;
+    }
+    .nav h2{
+        font-size: clamp(1.5rem, 50%, 2rem);
+    }
+    .nav h2 span{
+        font-size: clamp(1.25rem, 50%, 1.80rem);
+    }
+
+    .Top-gridcontainer{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto minmax(2rem,auto);
+        width: auto;
+        max-width: 768px;
+        padding: .85rem;
+        gap: 1rem;
+    }
+    .form{
+        max-width: 700px;
+    }
+    .form h2{
+        font-size: clamp(2.65rem, 50%, 3rem);
+        width: 100%;
+    }
+    .form .input{
+        width: 100%;
+    }
+    .signin-2{
+        width: 95%;
+    }
+    .hr{
+        width: 90%;
+    }
+    .form p{
+        width: 100%;
+    }
+    .Continue{
+        width: 90%;
+    }
+    .New{
+        width: 100%;
+    }
+    .image{
+        max-width: 768px;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+    }
+    .image img{
+        width: 75dvw;
+    }
+    .gridcontainer-1{
+        display: grid;
+        grid-template-columns: auto;
+        max-width: 750px;
+    }
+    .word h2{
+        width: 100%;
+    }
+    .word p{
+        width: 100%;
+    }
+    .buttons-1{
+        width: 100%;
+    }
+    .gridcontainer-2{
+        display: grid;
+        grid-template-columns: auto;
+        max-width: 768px;
+    }
+    .hid{
+        max-width: 768px;
+    }
+    .hid h2{
+        font-size: clamp(2.4rem, 50%, 2.5rem);
+        width: 100%;
+    }
+    .buttons-2{
+        max-width: 100%;
+    }
+    .grid-5{
+        display: grid;
+        grid-template-columns: auto;
+        max-width: 700px;
+    }
+    .p h2{
+        font-size: clamp(2.375rem, 50%, 2.45rem);
+        width: 80%;
+        padding-bottom: 20px;
+    }
+    .gridcontainer-3{
+        display: grid;
+        grid-template-columns: auto;
+        max-width: 768px;
+    }
+    .discover h2{
+        font-size: clamp(2.4rem, 50%, 2.5rem);
+        width: 100%;
+    }
+    .discover h4{
+        font-size: clamp(1.4rem, 50%, 1.5rem);
+        width: 100%;
+    }
+    .buttons-3{
+        max-width: 100%;
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+        max-width: 768px;
+        padding: 1rem;
+    }
+    .pageContent h3{
+        font-size: clamp(2rem, 50%, 2.5rem);
+        line-height: 2.5rem;
+        width: 100%;
+    }
+    .pageContent p{
+        width: 100%;
+        font-size: clamp(1.55rem, 50%, 1.75rem);
+        line-height: 2rem;
+    }
+    .page-img{
+        align-self: center;
+        max-width: 300px;
+        gap: 0rem;
+        position: relative;
+        order: -1;
+    }
+    .page-img img{
+        width: 50dvw;
+    }
+    .page-img a{
+        position: absolute;
+        left: 110%;
+        font-size: clamp(2.5rem, 50%, 2.75rem);
+    }
+    .gridcontainer-5{
+        display: grid;
+        grid-template-columns: auto;
+        max-width: 768px;
+        padding: 1rem;
+    }
+    .grid-1{
+        max-width: 100%;
+    }
+    .grid-1 img{
+        width: 45vw;
+    }
+    .grid-1 h2{
+        width: 80%;
+        @media (max-width: 560px){
+            width: 95%;
+        }
+    }
+    .grid-2{
+        max-width: 100%;
+    }
+    .grid-2 img{
+    width: 45vw;
+    }
+    .grid-2 h2{
+        width: 80%;
+    }
+    .grid-2 button{
+        width: 90%;
+    }
+    #topics{
+        width: 100%;
+    }
+    .gridcontainer-6{
+        display: grid;
+        grid-template-columns: auto;
+        max-width: 768px;
+    }
+    .checkbox{
+        width: 100%;
+    }
+    .insidecontainer h2{
+        font-size: clamp(2.313rem, 50%, 2.5rem);
+    }
+    .insidecontainer h4{
+        font-size: clamp(1.6rem, 50%, 1.688rem);
+        font-weight: 400;
+        width: 90%;
+    }
+    .link-box{
+        width: 100%;
+    }
+    .link-box button{
+        width: 96%;
+    }
+    .link-box a{
+        width: 100%;
+    }
+    .pple{
+        display: none;
+    }
+    .gridcontainer-7{
+        display: grid;
+        grid-template-columns: auto;
+        max-width: 768px;
+        padding: .85rem;
+    }
+    .gridcontainer-7 h2{
+        padding: 0;
+        width: 100%;
+        font-size: clamp(2.35rem, 50%, 2.5rem);
+        line-height: 3rem;
+        letter-spacing: -0.0012rem;
+    }
+    .grid-image{
+        display: none;
+    }
+    .small{
+        display: grid;
+        grid-template-columns: auto ;
+        max-width: 768px;
+        padding: .85rem;
+    }
+    .grid-footer{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto minmax(2rem,auto);
+        max-width: 768px;
+        width: auto;
+    }
+    .footer{
+        max-width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 350px);
+    }
+    .footer button option{
+        width: 5%;
+    }
+    
+}

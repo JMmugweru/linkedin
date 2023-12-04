@@ -1,0 +1,311 @@
+@media screen and (max-width: 992px){
+    .container {
+    overflow-x: hidden;
+    }
+    .nav{
+        max-width: 992px;
+        display: grid;
+        grid-template-columns: 1fr;
+        width: auto;
+        padding: 1rem;
+    }
+    .icons{
+        display: none;
+    }
+    .nav h2{
+        font-size: clamp(1.5rem, 50%, 2rem);
+    }
+    .nav h2 span{
+        font-size: clamp(1.25rem, 50%, 1.80rem);
+    }
+    .joins{
+        padding: .75rem 1.2rem;
+    }
+    .sign-in{
+        padding: .65rem 1.5rem;
+    }
+.Top-gridcontainer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 992px;
+    padding: 1rem;
+}
+.form {
+    max-width: 800px;
+}
+.form h2{
+    font-size: clamp(3.2rem, 50%, 3.25rem);
+    line-height: 3rem;
+}
+.form .input{
+    width: 100%;
+    position: relative;
+    @media (max-width: 850px){
+        width: 124%;
+        position: relative;
+    }
+}
+.signin-2{
+    width: 100%;
+    @media (max-width: 850px){
+        width: 120%;
+        position: relative;
+    }
+}
+.hr{
+    width: 100%;
+    @media (max-width: 850px){
+        width: 120%;
+        position: relative;
+    }
+}
+.form p{
+    width: 100%;
+    font-size: clamp(1rem, 50%, 1.2rem);
+    @media (max-width: 850px){
+        width: 120%;
+        position: relative;
+    }
+}
+.sentence{
+    @media (max-width: 850px){
+        width: 124%;
+        position: relative;
+    }
+}
+.sentence a{
+    font-size: clamp(1rem, 50%, 1.2rem);
+}
+.Continue{
+    width: 100%;
+    @media (max-width: 850px){
+        width: 120%;
+        position: relative;
+    }
+}
+.New{
+    width: 100%;
+    @media (max-width: 850px){
+        width: 120%;
+        position: relative;
+    }
+}
+.image{
+    max-width: 100px;
+}
+.gridcontainer-1{
+    display: grid;
+    grid-template-columns: auto;
+    max-width: 992px;
+    padding: 1rem;
+    gap: 1rem;
+}
+.word{
+    width: 100%;
+}
+.word h2{
+    width: 100%;
+}
+.word p{
+    width: 100%;
+}
+.buttons-1{
+    width: 100%;
+}
+.gridcontainer-2{
+    display: grid;
+    grid-template-columns: auto;
+    max-width: 992px;
+    padding: 1rem;
+}
+.hid{
+    max-width: 100%;
+}
+.gridcontainer-2 h2{
+    line-height: 3rem;
+    font-size: clamp(3rem, 50%, 3.25rem);
+    width: 100%;
+}
+.buttons-2{
+    max-width: 100%;
+}
+.grid-5{
+    display:grid;
+    max-width: 992px;
+    padding: 1rem;
+    align-items: center;
+}
+.p{
+    max-width: 600px;
+}
+.p h2{
+    width: 120%;
+    font-size: 2rem, 50%, 2.25rem;
+}
+.job button {
+    float: right;
+}
+.gridcontainer-3{
+    display: grid;
+    grid-template-columns: auto;
+    max-width: 992px;
+}
+.discover{
+    width: 100%;
+}
+.discover h2{
+    width: 100%;
+}
+.discover h4{
+    font-size: clamp(1.45rem, 50%,1.5rem);
+    width: 100%;
+}
+.buttons-3{
+    width: 110%;
+}
+.buttons-3 h4{
+    font-size: clamp(1.45rem, 50%, 1.5rem);
+}
+
+.content{
+    display: flex;
+    max-width: 992px;
+    padding: 1rem;
+}
+.pageContent h3{
+    font-size: clamp(2rem, 50%, 2.813rem);
+    line-height: 2.5rem;
+    font-weight: 400;
+    width: 100%;
+}
+.pageContent p{
+    width:100%;
+    font-size: clamp(1.5rem, 50%, 1.75rem);
+    line-height: 2rem;
+}
+.page-img{
+    align-self: flex-end;
+    max-width: 250px;
+    gap: 0rem;
+    position: relative;
+}
+.page-img img{
+    width: 33dvw;
+}
+.page-img a{
+    position: absolute;
+    left: 95%;
+    font-size: clamp(2.5rem, 50%, 1.75rem);
+}
+.gridcontainer-5{
+    display: grid;
+    grid-template-columns: auto;
+    max-width: 992px;
+    padding: 1rem;
+}
+.grid-1{
+    max-width: 100%;
+}
+.grid-1 img{
+    width: 35dvw;
+}
+.grid-1 h2{
+    font-size: clamp(3rem, 50%, 3.5rem);
+    line-height: 3rem;
+    width: 70%;
+}
+.grid-2{
+    max-width: 100%;
+}
+.grid-2 img{
+width: 35dvw;
+}
+.grid-2 h2{
+    font-size: clamp(3rem, 50%, 3.5rem);
+    line-height: 3rem;
+    width: 70%;
+}
+.grid-2 button{
+    width: 50%;
+}
+#topics{
+    width: 100%;
+}
+.gridcontainer-6{
+    max-width: 100%;
+    gap: .5rem;
+}
+.checkbox{
+    width: 500px;
+    max-width: 100%;
+ }
+ .outsidecontainer{
+     width: 100%;
+     float: left;
+     
+ }
+ .insidecontainer{
+     padding: 0;
+ }
+ .insidecontainer h4{
+     width: 100%;
+     font-size: clamp(2rem, 50%, 2.5rem);
+     line-height: 2.5rem;
+ }
+ .link-box{
+     width: 95%;
+ }
+.pple{
+    max-width: 100px;
+}
+.pple img{
+    width: 120;
+}
+.gridcontainer-7{
+    display: grid;
+    grid-template-columns: auto;
+    max-width: 992px;
+}
+.gridcontainer-7 h2{
+    width: 100%;
+    line-height: 3.5rem;
+    padding: 1rem;
+}
+.grid-image{
+    width: auto;
+    object-fit: cover;
+}
+.small{
+    max-width: 992px;
+    padding: 1rem;
+}
+.linked{
+    font-size: clamp(1rem, 50%, 1.2rem);
+}
+
+.linked span{
+    font-size: clamp(1rem, 50%, 1.2rem);
+}
+
+.heading h3{
+    width: 100%;
+    font-size: clamp(1rem, 50%, 1.2rem);
+}
+.heading li{
+    font-size: clamp(.85rem, 50%, 1rem);
+}
+.grid-footer{
+    max-width: 992px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto minmax(2rem, auto);
+    width: auto;
+}
+.footer{
+    display: grid;
+    grid-template-columns: repeat(2, 400px);
+}
+.footer button option{
+    width: 5%;
+}
+}
